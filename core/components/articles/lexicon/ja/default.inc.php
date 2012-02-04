@@ -20,7 +20,7 @@
  * @package articles
  * @author honda http://kogus.org
  */
-$_lang['articles.advanced_settings'] = 'Advanced Settings';
+$_lang['articles.advanced_settings'] = '詳細設定';
 $_lang['articles.all'] = '全て';
 $_lang['articles.article'] = '記事';
 $_lang['articles.article_alias'] = 'エイリアス (パーマリンク)';
@@ -128,12 +128,12 @@ $_lang['articles.unpublished'] = 'Not Published';
 $_lang['none'] = 'None';
 
 /* General */
-$_lang['articles.setting.updateServicesEnabled'] = 'Enable Update Services';
-$_lang['articles.setting.updateServicesEnabled_desc'] = 'If on, Articles will attempt to ping Ping-o-Matic whenever you publish an Article, to send out your article\'s title and URL to major search engines.';
-$_lang['articles.setting.sortBy'] = 'Sort Field';
-$_lang['articles.setting.sortBy_desc'] = 'The field to sort by on the main and archives listing pages.';
-$_lang['articles.setting.sortDir'] = 'Sort Direction';
-$_lang['articles.setting.sortDir_desc'] = 'The direction to sort by on the main and archives listing pages (DESC or ASC).';
+$_lang['articles.setting.updateServicesEnabled'] = 'Pingサービスの使用';
+$_lang['articles.setting.updateServicesEnabled_desc'] = 'このオプションが有効の場合、記事を公開すると、『Ping-o-Matic』サービスを利用した通知が、主要な検索エンジンに送られます。';
+$_lang['articles.setting.sortBy'] = 'ソートフィールド';
+$_lang['articles.setting.sortBy_desc'] = 'メインページ及びアーカイブページのソートに使用されるフィールドを指定します。';
+$_lang['articles.setting.sortDir'] = 'ソート昇降順';
+$_lang['articles.setting.sortDir_desc'] = 'メインページ及びアーカイブページのソート昇降順を、降順「DESC」または昇順「ASC」で指定します。';
 $_lang['articles.setting.archivesIncludeTVs'] = 'Include TVs in Listing';
 $_lang['articles.setting.archivesIncludeTVs_desc'] = 'If on, will include TV values as options in the listing chunks.';
 $_lang['articles.setting.includeTVsList'] = 'Include TVs List';
@@ -193,8 +193,8 @@ $_lang['articles.setting.pageNavVar_desc'] = 'The key of a placeholder to be set
 
 
 /* RSS settings */
-$_lang['articles.setting.rssAlias'] = 'RSS Alias (Permalink)';
-$_lang['articles.setting.rssAlias_desc'] = 'The alias (permalink) for the RSS feed, appended to the Articles Container URL.';
+$_lang['articles.setting.rssAlias'] = 'RSSエイリアス（パーマリンク）';
+$_lang['articles.setting.rssAlias_desc'] = 'RSSフィードを公開するエイリアス（パーマリンク）The alias (permalink) for the RSS feed, appended to the Articles Container URL.';
 $_lang['articles.setting.rssItems'] = 'Number of RSS Items';
 $_lang['articles.setting.rssItems_desc'] = 'The number of RSS items to show on the RSS feed.';
 $_lang['articles.setting.tplRssFeed'] = 'RSS Feed Chunk';
