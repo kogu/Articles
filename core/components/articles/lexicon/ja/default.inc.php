@@ -156,8 +156,8 @@ $_lang['articles.setting.tplArchiveMonth'] = 'アーカイブ一覧用チャン�
 $_lang['articles.setting.tplArchiveMonth_desc'] = '月/年の一覧に使用するチャンク。';
 $_lang['articles.setting.archiveListingsLimit'] = 'アーカイブ表示件数';
 $_lang['articles.setting.archiveListingsLimit_desc'] = 'The number of archive months/years to show.';
-$_lang['articles.setting.archiveCls'] = 'アーカイブCSS class';
-$_lang['articles.setting.archiveCls_desc'] = 'アーカイブのリストに適用されるCSSのクラスを指定します。';
+$_lang['articles.setting.archiveCls'] = 'Archive CSS Class';
+$_lang['articles.setting.archiveCls_desc'] = 'A CSS class to apply to each archive listing.';
 $_lang['articles.setting.archiveAltCls'] = 'Archive Alternate CSS Class';
 $_lang['articles.setting.archiveAltCls_desc'] = 'A CSS class to apply to each alternate row for each archive listing.';
 $_lang['articles.setting.archiveGroupByYear'] = '年でグルーピング';
@@ -166,10 +166,10 @@ $_lang['articles.setting.archiveGroupByYearTpl'] = 'Group By Year Chunk';
 $_lang['articles.setting.archiveGroupByYearTpl_desc'] = 'If Group By Year is set to 1, the Chunk to use for the wrapper for the archive list grouping.';
 
 /* Pagination */
-$_lang['articles.setting.articlesPerPage'] = 'ページあたりの記事数';
-$_lang['articles.setting.articlesPerPage_desc'] = '一覧時に表示する、ページあたりの記事数。';
-$_lang['articles.setting.pageLimit'] = 'ページ数の上限';
-$_lang['articles.setting.pageLimit_desc'] = 'ページング時に、リンクとして表示する最大ページ数。';
+$_lang['articles.setting.articlesPerPage'] = 'Articles Per Page';
+$_lang['articles.setting.articlesPerPage_desc'] = 'The number of Articles to show per page when listing posts.';
+$_lang['articles.setting.pageLimit'] = 'Pages Limit';
+$_lang['articles.setting.pageLimit_desc'] = 'The maximum number of pages to display when rendering paging controls';
 $_lang['articles.setting.pageNavTpl'] = 'Page Nav Tpl';
 $_lang['articles.setting.pageNavTpl_desc'] = 'Content representing a single page navigation control.';
 $_lang['articles.setting.pageActiveTpl'] = 'Page Active Tpl';
@@ -194,13 +194,13 @@ $_lang['articles.setting.pageNavVar_desc'] = 'The key of a placeholder to be set
 
 /* RSS settings */
 $_lang['articles.setting.rssAlias'] = 'RSSエイリアス（パーマリンク）';
-$_lang['articles.setting.rssAlias_desc'] = 'RSSフィードを公開するエイリアス（パーマリンク）The alias (permalink) for the RSS feed, appended to the Articles Container URL.';
-$_lang['articles.setting.rssItems'] = 'Number of RSS Items';
-$_lang['articles.setting.rssItems_desc'] = 'The number of RSS items to show on the RSS feed.';
-$_lang['articles.setting.tplRssFeed'] = 'RSS Feed Chunk';
-$_lang['articles.setting.tplRssFeed_desc'] = 'The Chunk to use for the RSS Feed template.';
-$_lang['articles.setting.tplRssItem'] = 'RSS Item Chunk';
-$_lang['articles.setting.tplRssItem_desc'] = 'The Chunk to use for each item in the RSS Feed.';
+$_lang['articles.setting.rssAlias_desc'] = 'RSSフィードのエイリアス（パーマリンク）。記事コンテナのURLに付加されます。';
+$_lang['articles.setting.rssItems'] = 'RSSアイテム表示数';
+$_lang['articles.setting.rssItems_desc'] = 'RSSフィードに表示するアイテムの件数。';
+$_lang['articles.setting.tplRssFeed'] = 'RSSフィード用チャンク';
+$_lang['articles.setting.tplRssFeed_desc'] = 'RSSフィード全体のテンプレートとして使用するチャンク。';
+$_lang['articles.setting.tplRssItem'] = 'RSSアイテム用チャンク';
+$_lang['articles.setting.tplRssItem_desc'] = 'RSSフィードの各アイテムに使用するチャンク。';
 
 /* Tagging */
 $_lang['articles.setting.tagsLimit'] = 'タグ一覧を表示';
@@ -219,8 +219,8 @@ $_lang['articles.setting.latestPostsLimit'] = 'Latest Articles to Show';
 $_lang['articles.setting.latestPostsLimit_desc'] = 'The number of latest Articles to show.';
 
 /* Notifications */
-$_lang['articles.setting.notifyTwitter'] = 'Send to Twitter';
-$_lang['articles.setting.notifyTwitter_desc'] = 'Automatically post link to Twitter when Article is published.';
+$_lang['articles.setting.notifyTwitter'] = 'Twitterに自動投稿';
+$_lang['articles.setting.notifyTwitter_desc'] = '記事の更新時、自動的にTwitterへ記事のリンクを送信します。';
 $_lang['articles.setting.notifyTwitter_notyet_desc'] = 'Automatically post link to Twitter when Article is published. <strong>Note: You must first visit <a href="[[+authUrl]]" target="_blank">the authentication page</a> to authenticate Articles to your Twitter account!</storng>';
 $_lang['articles.setting.notifyTwitterConsumerKey'] = 'Twitter Consumer Key';
 $_lang['articles.setting.notifyTwitterConsumerKey_desc'] = 'Optional. The Consumer Key for your Twitter account that maps to the Twitter app used for authentication. If not set, will use the MODX-Articles default. Override with your own Twitter App Consumer Key Secret for more security.';
@@ -228,7 +228,7 @@ $_lang['articles.setting.notifyTwitterConsumerKeySecret'] = 'Secret Twitter Cons
 $_lang['articles.setting.notifyTwitterConsumerKeySecret_desc'] = 'Optional. The Secret Access Token for your Twitter that maps to the Twitter app used for authentication. If not set, will use the MODX-Articles default. Override with your own Twitter App Consumer Key Secret for more security.';
 $_lang['articles.setting.notifyTwitterTpl'] = 'Twitter Template';
 $_lang['articles.setting.notifyTwitterTpl_desc'] = 'The template that the message to Twitter will be sent as.';
-$_lang['articles.setting.notifyTwitterTagLimit'] = 'Twitter Template';
+$_lang['articles.setting.notifyTwitterTagLimit'] = 'Twitter Tag Limit';
 $_lang['articles.setting.notifyTwitterTagLimit_desc'] = 'The number of tags to be used when [[+hashtags]] is used in the tpl; this placeholder appends tags as hashtags to the Tweet.';
 $_lang['articles.setting.shorteningService'] = 'URL Shortener';
 $_lang['articles.setting.shorteningService_desc'] = 'The service to use for shortening URLs. Set to None to not shorten URLs.';
@@ -310,8 +310,8 @@ $_lang['articles.setting.commentsAutoConvertLinks'] = '自動リンク';
 $_lang['articles.setting.commentsAutoConvertLinks_desc'] = 'URLを自動的にリンクへ変換します。';
 $_lang['articles.setting.commentsGravatar'] = 'Gravatarの使用';
 $_lang['articles.setting.commentsGravatar_desc'] = 'コメントにGravatarのアイコンを表示するか指定します。';
-$_lang['articles.setting.commentsGravatarIcon'] = 'Gravatar Icon Style';
-$_lang['articles.setting.commentsGravatarIcon_desc'] = 'The type of Gravatar icon to use for a user without a Gravatar.';
+$_lang['articles.setting.commentsGravatarIcon'] = 'Gravatarアイコンスタイル';
+$_lang['articles.setting.commentsGravatarIcon_desc'] = 'Gravatarを利用していないユーザーのためのアイコンスタイル。';
 $_lang['articles.setting.commentsGravatarSize'] = 'Gravatarアイコンのサイズ';
 $_lang['articles.setting.commentsGravatarSize_desc'] = 'Gravatarアイコンの表示サイズを、ピクセル数で指定します。';
 $_lang['articles.setting.'] = '';
